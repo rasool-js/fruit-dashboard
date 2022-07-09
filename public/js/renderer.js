@@ -72,8 +72,13 @@ jQuery(document).ready(function ($) {
 		clock: $('.header__logo > .logo__clock'),
 		navigation: $('.navigation__list'),
 		items: $('.navigation__item'),
+	 
 	};
-
+		const $customer={page:$("#customer-page")}
+		const $invoice={page:$("#invoice-page")}
+		const $product={page:$("#product-page")}
+		const $profile={page:$("#profile-page")}
+		const $saler={page:$("#saler-page")}
 	// Event Handler - dashboard
 	clock($navigation.clock, null);
 
